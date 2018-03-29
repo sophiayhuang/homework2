@@ -1,0 +1,144 @@
+.lightgray {
+    background-color: #EDEEEF;
+    border: 1px solid #999;
+}
+
+.logo {
+    float: left;
+}
+
+.topnav {
+    border-bottom: 20px;
+    background-color: black;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Futura;
+
+}
+
+.topnav h2 { 
+color: yellow;
+margin-left: 15px;
+ }
+
+
+.topnav a:hover {
+    color: #FB5456;
+}
+
+.topnav a.active {
+    color: #49494B;
+}
+
+.secondbox {
+        border: 1px solid #999;
+        border-color: yellow;
+        border-height: 10px;
+}
+
+.thirdbox {
+    border: 1px solid #C6C6C6;
+    border-color: #C6C6C6;
+    border-height: 10px;
+    background-color: #C6C6C6;
+}
+
+.thirdbox h2 {
+   text-align: center;
+   font-size: 18px;
+   font-style: italic;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #C6C6C6;
+}
+
+.col-right {
+    margin-left: 65%;
+    margin-right: 5%;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+    width: 20%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
+.image { 
+ padding: 30px 0;
+ background-image: url(http://c1.staticflickr.com/4/3209/2733534094_65f8856160_b.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+}
+
+.blurb {
+    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(204, 204, 204, 0.7);
+    border: 1px solid black
+
+
+}
+
+.yellowbutton {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 4px;
+    display: block;
+}
